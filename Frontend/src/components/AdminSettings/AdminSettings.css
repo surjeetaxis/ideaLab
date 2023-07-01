@@ -1,0 +1,77 @@
+.adminSettingsContainer {
+  margin: 80px;
+}
+
+.headerContainer {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.sectionContainer {
+  font-size: 0.9em;
+  display: block;
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.adminSettingsSectionHeader {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.75em;
+  margin-bottom: 1.5em;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.listContainer {
+  margin-left: 15px;
+}
+
+.emailSettingsInputDisplay {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.adminSettingsInput {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1em 10px;
+  width: 200px;
+  margin: 0 1em 1em 0;
+}
+
+input::placeholder {
+  font-size: 14px;
+  text-align: left;
+}
+
+.adminSettingsButton {
+  text-align: center;
+  background-color: #658b5a;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  padding: 0.5rem;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.emailSettingsButton {
+  margin-top: 15px;
+  align-self: flex-end;
+}
+
+.adminSettingsButton:hover {
+  cursor: pointer;
+}
+
+.adminContainer .ideaLabLogo {
+  width: 300px;
+  margin-top: 25px;
+}
+
+.adminContainer .statusMenu {
+  margin-top: 20px;
+  margin-left: 2em;
+}

@@ -1,0 +1,107 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.create-account-container {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2em;
+}
+
+.container > button {
+  display: block;
+  height: 2.5em;
+  width: 15.5em;
+  margin: 2rem;
+  background-color: #00aeef;
+  border-color: #00aeef;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  color: #4b4b4b;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4b4b4b;
+  vertical-align: middle;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4b4b4b;
+  vertical-align: middle;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4b4b4b;
+  vertical-align: middle;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4b4b4b;
+  vertical-align: middle;
+}
+
+.createAccountLogo {
+  width: 400px;
+  margin-bottom: 2em;
+}
+
+.create-account-col-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-account-col-two input {
+  margin: 2em auto;
+}
+
+.create-account-col-two .basicInput {
+  height: 100px;
+}
+
+.roleRadioButtons {
+  display: flex;
+}
+
+.roleRadioButtons label {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.roleRadioButtons label * {
+  padding: 0 1em;
+}
+
+.roleRadioButtons label span {
+  padding-right: 2em;
+}
+
+.createNewAccountButton {
+  background-color: #577ca2;
+  border-radius: 6px;
+  color: #fff;
+  padding: 0.5em 1em;
+  font-size: 14px;
+}
+
+.successCreateAccount {
+  color: #658b5a;
+}

@@ -1,0 +1,78 @@
+.printCardContainer {
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 4px;
+  text-align: left;
+  height: fit-content;
+}
+
+.mouseOverColorPickerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.colorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin-left: 1em;
+}
+
+.colorPickerContainer {
+  margin-left: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.colorPickerContainer > * > * > * {
+  border-radius: 50%;
+  border: solid 1px black;
+}
+
+.colorSelectionStatus {
+  text-align: left;
+  color: red;
+}
+
+.colorCircle {
+  width: 25px;
+  height: 25px;
+  border: solid 1px black;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.toggleArrow:hover,
+.saveIcon:hover,
+.emailRecipient:hover {
+  cursor: pointer;
+}
+
+.toggleArrow,
+.saveIcon {
+  transform: scale(1.5);
+  padding-right: 2em;
+}
+
+.commentSection {
+  border: 2px solid black;
+  width: 41%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.printAdditionalInfo {
+  display: flex;
+  overflow: overlay;
+}
+
+.emailRecipient {
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.emailRecipient > svg {
+  margin-left: 5px;
+}
