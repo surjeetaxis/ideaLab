@@ -37,6 +37,7 @@ docker-compose stop
 docker-compose build
 docker-compose up --force-recreate
 ```
+or docker-compose up --build
 
 This should rebuild the images and recreate the containers so you have an up to instance running.
 
