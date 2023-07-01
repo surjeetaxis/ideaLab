@@ -91,4 +91,7 @@ Now you can run basic postgres commands.
 ## Frontend
 1. The frontend is written in React.[If you need help with react, refer to its documentation.](https://reactjs.org/docs/getting-started.html "documentation")
 2. To see our page, type into your web browser localhost:3000/#/login.
+
+Username admin 
+password admin
 # ideaLab
